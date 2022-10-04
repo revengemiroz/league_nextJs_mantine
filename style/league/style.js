@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  border: 2px solid green;
-  height: 100vh;
+  border: 2px solid black;
+  min-height: 100vh;
 `;
 
 export const Champion_Collection = styled.div`
@@ -15,7 +15,31 @@ export const Champion_Collection = styled.div`
   margin: 0 auto;
 `;
 
+export const Text_Container = styled.div`
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+`;
+
+export const Choose_Your_Text = styled.span`
+  font-size: 30px;
+  display: block;
+  text-transform: uppercase;
+`;
+
 export const Champion_Text = styled.span`
+  display: block;
+  font-size: 30px;
+  text-transform: uppercase;
+`;
+
+export const Sub_Text = styled.div`
+  display: block;
+  font-size: 30px;
+`;
+
+export const Sub_Text_2 = styled.div`
+  display: block;
   font-size: 30px;
 `;
 
