@@ -8,6 +8,8 @@ import { NotificationsProvider } from '@mantine/notifications';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/keyboard';
+import 'swiper/css/mousewheel';
 import 'swiper/css/navigation';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {

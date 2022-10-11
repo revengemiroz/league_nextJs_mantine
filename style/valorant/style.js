@@ -15,6 +15,23 @@ export const Container = styled.div`
   align-items: center;
 `;
 
+export const Header = styled.div`
+  background: #111111;
+  color: white;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 20px;
+`;
+
 export const Main = styled.div`
   width: 80vw;
   height: 80vh;
