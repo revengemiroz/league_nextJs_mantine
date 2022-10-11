@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import { InView } from 'react-intersection-observer';
 
 import {
@@ -17,44 +18,47 @@ import {
 
 import { Valorant } from '../../Data/valorant';
 
-import ScrollContainer from 'react-indiana-drag-scroll';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-function Index(props) {
+function Index({ visibleAgents, setVisibleAgents, nonVisibleAgents, setNonVisibleAgents }) {
   const [activeAgent, setActiveAgent] = useState(Valorant[0]);
-
-  useEffect(() => {}, [activeAgent]);
 
   return (
     <Container>
+      <button onClick={() => console.log('data is', { visibleAgents })}>click me</button>
       <Main>
         <Character_List>
-          <ScrollContainer draggingClassName="container--dragging" className="container">
+          <Swiper
+            direction="vertical"
+            slidesPerView={4}
+            loop={true}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            grabCursor={true}
+            className="mySwiper"
+          >
             {Valorant.map((agent) => {
               return (
-                <InView
-                  as={`div`}
-                  key={agent.id}
-                  onChange={(inView, ref, entry) =>
-                    console.log('inview', { inView }, { ref }, { entry })
-                  }
-                >
+                <SwiperSlide key={agent.id}>
                   <Character_Name
                     selected={activeAgent.id == agent.id ? 1 : 0}
                     key={agent.id}
                     id={agent.id}
                     onClick={() => {
                       setActiveAgent(agent);
-                      const link = document.getElementById(agent.id);
-                      link.scrollIntoView();
                     }}
                   >
-                    <span className="agentNo">{agent.id}</span>
+                    <span className="agentNo">
+                      {agent.id < 10 ? `${'0' + agent.id}` : agent.id}
+                    </span>
                     <span className="agentName">{agent.name}</span>
                   </Character_Name>
-                </InView>
+                </SwiperSlide>
               );
             })}
-          </ScrollContainer>
+          </Swiper>
         </Character_List>
         <Character>
           <img src={activeAgent.img} />

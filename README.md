@@ -37,3 +37,25 @@ This template comes with several essential features:
 - `storybook` – starts storybook dev server
 - `storybook:build` – build production storybook bundle to `storybook-static`
 - `prettier:write` – formats all files with Prettier
+
+  // console.log({ agent }, Number(ref.target.children[0].id));
+  if (inView == true) {
+  if (
+  !visibleAgents.some(
+  (data) => Number(data.id) == Number(ref.target.children[0].id)
+  )
+  ) {
+  setVisibleAgents([...visibleAgents, { agent: agent, inView: inView }]);
+  } else {
+  return;
+  }
+  } else {
+  // if (
+  // !nonVisibleAgents.some(
+  // (data) => Number(data.id) == Number(ref.target.children[0].id)
+  // )
+  // ) {
+  // setNonVisibleAgents([...nonVisibleAgents, agent]);
+  // }
+  }
+  console.log({ visibleAgents }, { nonVisibleAgents });

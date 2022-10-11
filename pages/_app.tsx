@@ -6,9 +6,16 @@ import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { NotificationsProvider } from '@mantine/notifications';
 
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
   const [colorScheme, setColorScheme] = useState<ColorScheme>(props.colorScheme);
+
+  const [visibleAgents, setVisibleAgents] = useState([]);
+  const [nonVisibleAgents, setNonVisibleAgents] = useState([]);
 
   const toggleColorScheme = (value?: ColorScheme) => {
     const nextColorScheme = value || (colorScheme === 'dark' ? 'light' : 'dark');
@@ -27,7 +34,13 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
         <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
           <NotificationsProvider>
-            <Component {...pageProps} />
+            <Component
+              {...pageProps}
+              visibleAgents={visibleAgents}
+              setVisibleAgents={setVisibleAgents}
+              nonVisibleAgents={nonVisibleAgents}
+              setNonVisibleAgents={setNonVisibleAgents}
+            />
           </NotificationsProvider>
         </MantineProvider>
       </ColorSchemeProvider>

@@ -27,12 +27,18 @@ export const Character_List = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-size: 80px;
-  font-weight: 800;
+  /* color: white; */
   overflow: auto;
   width: 100%;
-  height: 100%;
-  max-height: 75%;
+  height: 75%;
+  /* max-height: 75%; */
+  /* max-height: 75%; */
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+  }
 
   ::-webkit-scrollbar {
     display: none;
@@ -45,8 +51,14 @@ export const Character_Name = styled.div`
   display: flex;
   flex-direction: row;
   gap: 20px;
+  color: white;
+  width: 100%;
+  background: transparent;
+  height: 100%;
 
   .agentNo {
+    font-size: 80px;
+    font-weight: 800;
     font-size: 20px;
     font-weight: 500;
     height: 100%;
@@ -55,6 +67,8 @@ export const Character_Name = styled.div`
   }
 
   .agentName {
+    font-size: 80px;
+    font-weight: 800;
     padding: 0;
     color: ${({ selected }) => (selected == 1 ? '#ff4655' : 'white')};
   }
