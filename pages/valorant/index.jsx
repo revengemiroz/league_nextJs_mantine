@@ -25,7 +25,6 @@ function Index({ visibleAgents, setVisibleAgents, nonVisibleAgents, setNonVisibl
 
   return (
     <Container>
-      <button onClick={() => console.log('data is', { visibleAgents })}>click me</button>
       <Main>
         <Character_List>
           <Swiper
