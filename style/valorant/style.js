@@ -7,18 +7,28 @@ const breatheAnimation = keyframes`
 `;
 
 export const Container = styled.div`
-  background: linear-gradient(180deg, #0f1823 70%, #ece8e1 30%);
+  background: linear-gradient(180deg, #0f1823 60%, #ece8e1 40%);
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 2px solid green;
+`;
+
+export const Layout = styled.div`
+  border: 2px solid red;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* gap: 20px; */
 `;
 
 export const Header = styled.div`
   background: #111111;
   color: white;
-  position: absolute;
+  /* position: absolute; */
   z-index: 999;
   top: 0;
   width: 100%;
