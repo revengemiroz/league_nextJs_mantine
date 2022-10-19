@@ -68,32 +68,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
+        name: 'curvball',
         video:
           'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltad7b0ea9be090042/5ecad82c2f5c7259287654ff/Phoenix_Q_v001_web.mp4',
-        icon: '',
-        description: '',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb125dfdcd673a9a8/5eaf85e95751b2150e57a803/TX_Pheonix_Q.png',
+        description:
+          'EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'hot hands',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt318f7ee7d6435fac/5ecad82cf5bd13348a6cac7d/Phoenix_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb239d633e68d9b65/5eaf85e94398082ffe240195/TX_Pheonix_E.png',
+        description:
+          'EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'blaze',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf0ee7c9d84985ecf/5ecad82d957e405e09905751/Phoenix_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt40cafc8e39b4fcbd/5eaf85e903f6e72ff388cc1a/TX_Pheonix_C.png',
+        description:
+          'EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'run it back',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt50beaed6524c3219/5ecad82bc846021917ecbb89/Phoenix_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt26ed15b080ee68b1/5eaf85e91b51e36d7c1b6ad0/TX_Pheonix_X.png',
+        description:
+          'INSTANTLY place a marker at Phoenix’s location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.',
       },
     ],
   },
@@ -108,31 +115,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'slow orb',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4f4fdcc86da69972/5ecad872722d20585b2f4a44/Sage_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt295acba83a83496d/5eaf85beb8a6356e4ddc1007/TX_Sage_Q.png',
+        description:
+          'EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'healing orb',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf1d16edc36ba3386/5ecad87152c5395e0f2dd0ea/Sage_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc6355bb295e64ba1/5efa55c138fa326e2aaf5c3f/TX_Sage_E.png',
+        description:
+          'EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'barrier orb',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5a0edb670c30fbdc/5ecad8732f5c725928765507/Sage_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt368b2f4136858aed/5eaf85becf88d36e47cf029f/TX_Sage_C.png',
+        description:
+          'EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'resurrection',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltef1820f276fbaa0c/5ecad871957e405e09905755/Sage_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt39a8fe8deb6389f8/5efa55d38732f51d8514604f/TX_Sage_X.png',
+        description:
+          'EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health',
       },
     ],
   },
@@ -147,31 +162,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'shock bolt',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7af29765c99f807d/5ecad882722d20585b2f4a48/Sova_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltebf4f748f87b2222/5eaf85dc4398082ffe24018f/TX_Sova_Q.png',
+        description:
+          'EQUIP a bow with a shock bolt. FIRE to send the explosive forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of the projectile. ALTERNATE FIRE to add up to two bounces to this arrow.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'recon bolt',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt44b27c0d688217db/5ecad88398f79d6925dbee21/Sova_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5084114604f20525/5eaf85b108d37e6d82ef74ef/TX_Sova_E.png',
+        description:
+          'EQUIP a bow with a recon bolt. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. HOLD FIRE to extend the range of the projectile. ALTERNATE FIRE to add up to two bounces to this arrow.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'owl drone',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt07d2025ac5dcd792/5ecad883f5bd13348a6cac89/Sova_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt74a6f56b5c37edb5/5eaf85b1f66b2515dea76b26/TX_Sova_C.png',
+        description:
+          'EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: "hunter's fury",
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf9fc34106a23479c/5ecad88397b46c1911ad1872/Sova_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5515bdb07fabe98/5eaf85b1b8a6356e4ddc1001/TX_Sova_X.png',
+        description:
+          'EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.',
       },
     ],
   },
@@ -186,31 +209,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'poison cloud',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5200bab40679f96/5ecad8935e73766852c8ed94/Viper_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltab09d009a46f6c08/5eaf85a2cf88d36e47cf0299/TX_Viper_Q.png',
+        description:
+          'EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'toxic screen',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt66a45c1fe76ca647/5ecad893957e405e0990575d/Viper_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3c4a5fda3e7e8f16/5eaf85a226a7212f2db1beb6/TX_Viper_E.png',
+        description:
+          'EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'snake bite',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5e70987e8ac2f2d6/5ecad893722d20585b2f4a4c/Viper_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt93b26c70173b0875/5eaf85a3b8a6356e4ddc0ffb/TX_Viper_C.png',
+        description:
+          'EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: "viper's pit",
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt41c75111b2eac6b5/5ecad8923a450a58554b7078/Viper_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8698a8684bb39593/5eaf85a2f66b2515dea76b20/TX_Viper_X.png',
+        description:
+          'EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it.',
       },
     ],
   },
@@ -225,31 +256,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'cyber cage',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt019fa05d6b7fddef/5ecad7e597b46c1911ad186c/Cypher_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta39b791956ecb79a/5eaf85fecf88d36e47cf02ab/TX_Cypher_Q.png',
+        description:
+          'INSTANTLY toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'spycam',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt47c03800823ce304/5ecad7e64a28e119db562296/Cypher_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt834a6ba8d533a3b7/5eaf85feaf7e315106b47da4/TX_Cypher_E.png',
+        description:
+          'EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera’s view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'trapwire',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9b7d004dc573791c/5ecad7e85e73766852c8ed8c/Cypher_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6397bce97bdb0ecd/5eaf85fef66b2515dea76b32/TX_Cypher_C.png',
+        description:
+          'EQUIP a trapwire. FIRE to place a destructible and covert tripwire at the targeted location creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'neural theft',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt29f3571576a3937f/5ecad7e5e2a559592eb0c1b0/Cypher_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcf313af5404f8f80/5eaf85fee6f6795e530a2711/TX_Cypher_X.png',
+        description:
+          'INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.',
       },
     ],
   },
@@ -264,31 +303,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'devour',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb216220f42c804e2/5ecad85d4a28e119db5622a8/Reyna_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf10078de1865cc3a/5eb7cf1e241e5e628430676c/TX_Reyna_Q.png',
+        description:
+          'Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds. INSTANTLY consume a nearby soul orb, rapidly healing for a short duration. Health gained through this skill exceeding 100 will decay over time. If EMPRESS is active, this skill will automatically cast and not consume the orb.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'dismiss',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt77e99ec99ef3a839/5ecad85e2f5c725928765503/Reyna_E_v002_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7f61a763092dca17/5eb7cf1e7e251a2d4a46fdb3/TX_Reyna_E.png',
+        description:
+          'INSTANTLY consume a nearby soul orb, becoming intangible for a short duration. If EMPRESS is active, also become invisible.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'leer',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf6109b8be97e8d96/5ecad85db42d3333c95dd1b2/Reyna_C_v002_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1df6153d75480d43/5eb7cf1e8682422a765fc997/TX_Reyna_C.png',
+        description:
+          'EQUIP an ethereal destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'empress',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltadf53a38e449cb4d/5ecad85cbab1845d392dfd0f/Reyna_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte8a8889d3b17a9b9/5eb7cf1e1ea0c32e33b95fa6/TX_Reyna_X.png',
+        description:
+          'INSTANTLY enter a frenzy, increasing firing speed, equip and reload speed dramatically. Scoring a kill renews the duration.',
       },
     ],
   },
@@ -303,31 +350,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'alarmbot',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9a8fa11ac887550e/5f2203522f812a7c016f5651/AlarmBot_LowQuality.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt143467a7379d4211/5f21feb94d73a00a2e1428d3/Copy_of_TX_KJ_Alarm.png',
+        description:
+          'EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range. After reaching its target, the bot explodes, applying Vulernable. HOLD EQUIP to recall a deployed bot',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'turret',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0fe3462ae9a025a4/5f220396074360086ccdd908/Turret_LowQuality.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1a4926627b38cc1a/5f2201490e38240638cd81d2/Copy_of_tx_kj_turret.png',
+        description:
+          'EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD EQUIP to recall the deployed turret.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'nanoswarm',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4aed833e1b0df155/5f2204694be7297d7e6c8449/Grenade_LowQuality.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4e53712407193852/5f22010d8ff50d070ad2d172/Copy_of_TX_KJ_Bees.png',
+        description:
+          'EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'lockdown',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf74d72b162a14692/5f2204ab8ff50d070ad2d192/Ultimate_LowQualityV02.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1e4113a934e67fa3/5f22018d71ec397ef9bf089e/Copy_of_TX_KJ_Lockdown.png',
+        description:
+          'EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies.',
       },
     ],
   },
@@ -342,31 +397,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'flashpoint',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc2d5631f1babcaf0/5ec840e1bab1845d392dfc39/Breach_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt40b144165bebbb57/5eaf863aa20afe612d82fb54/TX_Breach_E.png',
+        description:
+          'EQUIP a blinding charge. FIRE the charge to set fast-acting burst through the wall. The charge detonates to blind all players looking at it.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'fault line',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd09eb47222cc1152/5ec840e287617619e2be955e/Breach_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd59235294cc21d88/5eaf863acf88d36e47cf02b1/TX_Breach_C.png',
+        description:
+          'EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'aftershock',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfff097ebc7da90e9/5ec840e1e2a559592eb0c0e2/Breach_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb39bc3e8df9012dc/5eaf863ad238e314f259fa93/TX_Breach_X.png',
+        description:
+          'EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'rolling thunder',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0a47675f8b973fda/5ec840e252c5395e0f2dd038/Breach_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf7b0c621601e5577/5eaf863af66b2515dea76b40/TX_Breach_Q.png',
+        description:
+          'EQUIP a seismic charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.',
       },
     ],
   },
@@ -381,31 +444,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'paranoia',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5babc7e7c6c24fa0/5ecad8154a28e119db56229e/Omen_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt323e0178def67d36/5eaf85f4cf88d36e47cf02a5/TX_Omen_Q.png',
+        description:
+          'INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'dark cover',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt70e2c9db1c0793df/5ecad815c846021917ecbb85/Omen_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta95e6968cb32f519/5eaf85f44398082ffe24019b/TX_Omen_E.png',
+        description:
+          'EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key with targeting to move the marker closer.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'shrouded step',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt63486e54ea52945a/5ecad815bab1845d392dfd07/Omen_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7016fed86331500b/5eaf85f41b51e36d7c1b6ad6/TX_Omen_C.png',
+        description:
+          'EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'from the shadows',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt65aa85bf6ba5c0e8/5ecad814a4fe135d37f021a3/Omen_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd7b44696b74076d4/5eaf85f4f66b2515dea76b2c/TX_Omen_X.png',
+        description:
+          'EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.',
       },
     ],
   },
@@ -420,31 +491,38 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'updraft',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Jett_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltce7928301a67a33a/5eaf861103f6e72ff388cc20/TX_Jett_Q.png',
+        description: 'INSTANTLY propel Jett high into the air.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'tailwind',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5368134438181520/5ecad7f6e2a559592eb0c1b4/Jett_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta0beeaa4a7e1ed78/5eaf8611b8a6356e4ddc1013/TX_Jett_E.png',
+        description:
+          'INSTANTLY propel Jett in the direction she is moving. If Jett is standing still, she will propel forward.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'cloudburst',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb15019d03f48b8c3/5ecad7f7beb6c333c3a0f59d/Jett_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf137993847c71770/5eaf8611d4b10d15d3e8db4e/TX_Jett_C.png',
+        description:
+          'INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'blade storm',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta43d8d506e2f5e00/5ecad7f6957e405e0990574d/Jett_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb3e956f9fb96318e/5eaf86112b79652f27c32a06/TX_Jett_X.png',
+        description:
+          'EQUIP a set of highly accurate knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target.',
       },
     ],
   },
@@ -459,31 +537,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'blast pack',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf3581aedf43e1ce8/5ecad83cc846021917ecbb8d/Raze_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltdb74f287eee9fe76/5eaf862a248a28605479c91f/TX_Raze_Q.png',
+        description:
+          "INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this ability, but will still take fall damage if launched up far enough.",
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'paint shells',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfe61b821c26125b7/5ecad83be2a559592eb0c1ba/Raze_E_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb0eb89e122c1f4ea/5eaf862ad238e314f259fa8b/TX_Raze_E.png',
+        description:
+          'EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'boom bot',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3f7d7ee195ecedca/5ecad83c52c5395e0f2dd0e4/Raze_C_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt44acc030d4d60182/5eaf862aa20afe612d82fb4e/TX_Raze_C.png',
+        description:
+          'EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'showstopper',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb15aa9cb086aed1a/5ecad83c4a28e119db5622a2/Raze_X_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt60023b671f330740/5eaf862ae6f6795e530a2717/TX_Raze_X.png',
+        description:
+          'EQUIP a rocket launcher. FIRE shoots a rocket that does massive area damage on contact with anything.',
       },
     ],
   },
@@ -499,31 +585,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'trailblazer',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt90a6f2733b96ce16/5f7faa7dd4fbb50ef307791e/Val_Skye_Q_Ability_Web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta3c0de454b776542/5f7fa772e69fa40ef3183bda/SKye-abilities-_0000s_0003_ICONS_0000_Layer-1.png',
+        description:
+          'EQUIP a Tasmanian tiger trinket. FIRE to send out and take control of the predator. While in control, FIRE to leap forward, exploding in a concussive blast and damaging directly hit enemies.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'guiding light',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8ecea4a77a26c25b/5f7fab7adf178b0ea98495a5/Val_Skye_E_Ability_Web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7243683c6daf467d/5f7fa7729d46c20f09177ab7/SKye-abilities-_0000s_0002_ICONS_0001_Layer-2.png',
+        description:
+          'EQUIP a hawk trinket. FIRE to send it forward. HOLD FIRE to guide the hawk in the direction of your crosshair. RE-USE while the hawk is in flight to transform it into a flash that plays a hit confirm if an enemy was within range and line of sight.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'regrowth',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0f5403509070a0a2/5f7fabc5879de80eb41b1f33/Val_Skye_C_Ability_Web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaa1ff9d900a13d3a/5f7fa772f98ad40e91dc75e4/SKye-abilities-_0000s_0001_ICONS_0002_Layer-3.png',
+        description:
+          'EQUIP a healing trinket. HOLD FIRE to channel, healing allies in range and line of sight. Can be reused until her healing pool is depleted. Skye cannot heal herself.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'seekers',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt966535853a54c58c/5f7fac19df178b0ea98495ad/Val_Skye_X_Ability_Web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltce2ce64e31a00348/5f7fa77202e6b80ebf902384/SKye-abilities-_0000s_0000_ICONS_0003_Layer-4.png',
+        description:
+          'EQUIP a Seeker trinket. FIRE to send out three Seekers to track down the three closest enemies. If a Seeker reaches its target, it nearsights them.',
       },
     ],
   },
@@ -538,31 +632,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'blindside',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9af4e1e3b962f7b4/5ff77b6fa703d10ab87ebb27/Yoru_Abilities_Blinding_1_1.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt54759b7874fbd40c/5ff5681bb47cdf7fc7d6c3e6/Yoru_Anility_Icons_512x512_Q.png',
+        description:
+          'EQUIP to rip an unstable dimensional fragment from reality. FIRE to throw the fragment, activating a flash that winds up once it collides with a hard surface in world.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'gatecrash',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0945f456a2bcac77/62215a1f47e4d72e3e67ff1a/Website_Yoru_Rework_Gatecrash_v2.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5427236bf8a82b05/5ff5685e1166ce7d2ed1bd5d/yoru_ability_icons_52x512_E.png',
+        description:
+          "EQUIP a rift tether FIRE to send the tether forward ALT FIRE to place a stationary tether ACTIVATE to teleport to the tether's location USE to trigger a fake teleport",
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'fakeout',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt47c96a79f14605fc/62215aaed83ad851e8a9e09d/Website_Yoru_Rework_Fakeout_v2.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3ffa0e1858916cb8/622159a1c56d222d0cb0cc12/TX_Yoru_Fakeout.png',
+        description:
+          'EQUIP an echo that transforms into a mirror image of Yoru when activated FIRE to instantly activate the mirror image and send it forward ALT FIRE to place an inactive echo USE to transform an inactive echo into a mirror image and send it forward. Mirror images explode in a blinding flash when destroyed by enemies.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'dimensional drift',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt95a89496da772b65/62215bbd6f0333490a0e7bec/Website_Yoru_Rework_Dimensional_Drift_v2.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceb6f71853fa7be7/5ff568b3396e65084a9e8c7c/Yoru_Anility_Icons_512x512_X.png',
+        description:
+          "EQUIP a mask that can see between dimensions. FIRE to drift into Yoru's dimension, unable to be affected or seen by enemies from the outside",
       },
     ],
   },
@@ -577,31 +679,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'nova pulse',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt78e556d97ea93fc9/6036c92572c04c12c9563dff/RIFT21_Astra_Ability_Q.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8205d4a5a6cf1fca/6039aa950efbd9779b028acd/Astra_Ability_Icons_Q_NovaPulsev2.png',
+        description:
+          'Place Stars in Astral Form (X) ACTIVATE a Star to detonate a Nova Pulse. The Nova Pulse charges briefly then strikes, concussing all players in its area.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'nebula',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3be9010588cba144/6036c924427f5d75042c3ae5/RIFT21_Astra_Ability_E_F.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt60eb8df261fc5d0b/6039aaa62eee966ee2e3d52e/Astra_Ability_Icons_E_Nebulav2.png',
+        description:
+          'Place Stars in Astral Form (X) ACTIVATE a Star to transform it into a Nebula (smoke). Use (F) on a Star to Dissipate it, returning the star to be placed in a new location after a delay. Dissipate briefly forms a fake Nebula at the Star’s location before returning.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'gravity well',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaba20d81cc601af4/6036c92599494e6c4f166b19/RIFT21_Astra_Ability_C.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9cb14de8632bd26e/6039aab70efbd9779b028ad1/Astra_Ability_Icons_C_GravityWellv2.png',
+        description:
+          'Place Stars in Astral Form (X) ACTIVATE a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside fragile.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'astral form / cosmic divide',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltca94f8d6f8e4c91d/6036c92499494e6c4f166b15/RIFT21_Astra_Ability_ULT.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5b7c62ae295bac95/6039aac8946aa93dbe59a693/Astra_Ability_Icons_X_CosmicDividev2.png',
+        description:
+          'ACTIVATE (X) to enter Astral Form where you can place Stars with PRIMARY FIRE. Stars can be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well. When Cosmic Divide is charged, use SECONDARY FIRE in Astral Form to begin aiming it, then PRIMARY FIRE to select two locations. An infinite Cosmic Divide connects the two points you select. Cosmic Divide blocks bullets and heavily dampens audio.',
       },
     ],
   },
@@ -616,31 +726,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'flash/drive',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltab2fead35a9b412d/60cce5d49b520349ac9d080d/KAYO_C_v002_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt83e92ae578e66b8e/60d204231e0505677a882f38/Q_FlashDrive.png',
+        description:
+          'EQUIP a flash grenade. FIRE to throw. The flash grenade explodes after a short fuse, blinding anyone in line of sight.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'zero/point',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt11ab79d777cba68e/60cce41a07060a4ae3f12ff1/KAYO_E_v002_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt496288e7ab899b47/60d2018db930a53616fa4882/E_ZeroPoint.png',
+        description:
+          'EQUIP a suppression blade. FIRE to throw. The blade sticks to the first surface it hits, winds up, and suppresses anyone in the radius of the explosion.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'frag/ment',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6372c1b58baf8ca2/60cce401ae0d50495b4f7e31/KAYO_Q_v001_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte671cefaedb07d26/60d2046483f9fe49a6fef713/C_FragMent.png',
+        description:
+          'EQUIP an explosive fragment. FIRE to throw. The fragment sticks to the floor and explodes multiple times, dealing near lethal damage at the center with each explosion.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'null/cmd',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6cd3a6f6e99152f8/60cce43683f9fe49a6fee835/KAYO_X_v003_web.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltead1f4cb9ad32e19/60d20208bcec595109d831c2/X_NullCmd.png',
+        description:
+          'INSTANTLY overload with polarized radianite energy that empowers KAY/O and causes large energy pulses to emit from his location. Enemies hit with these pulses are suppressed for a short duration.',
       },
     ],
   },
@@ -655,31 +773,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'headhunter',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc97eeaeb138d2155/618d9fb7867d1817d95f3b2b/VAL_broll_EP03-3_Chamber_Q.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt734ce749d24f1b4f/618d9ebad380f814d61f0020/Chamber_ability_Q.png',
+        description:
+          'ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'rendezvous',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf1c12ab8f1c119bc/618d9fd2fb61e4021ad339f0/VAL_broll_EP03-3_Chamber_E.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt273c7e9db39da271/618d9ec29dccbf6fa4178520/Chamber_ability_E.png',
+        description:
+          'PLACE two teleport anchors. While on the ground and in range of an anchor, REACTIVATE to quickly teleport to the other anchor. Anchors can be picked up to be REDEPLOYED.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'trademark',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt318d4a246e29106a/618d9fdbf71a3113890e9632/VAL_broll_EP03-3_Chamber_C.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4c14aadba51a0037/618d9ed03b08dd14d79a8087/Chamber_ability_C.png',
+        description:
+          'PLACE a trap that scans for enemies. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that slows players caught inside of it.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'tour de force',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta111e90b3f2ce476/618d9fde3b08dd14d79a808f/VAL_broll_EP03-3_Chamber_X.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6856745815feee67/618d9eda3b08dd14d79a808b/Chamber_ability_X.png',
+        description:
+          'ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any direct hit. Killing an enemy creates a lingering field that slows players caught inside of it.',
       },
     ],
   },
@@ -694,31 +820,39 @@ export const Valorant = [
     abilities: [
       {
         type: 'Q',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'relay bolt',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf634e203f29987a5/61d8a91abf9cb8387cc1d9c8/VAL_Neon_Ability-Q_Preview_Stun_noHUD_Web_h264.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt10d37aa745665f36/61d8a80814ef402247ceab30/Neon_Q-Relay_Bolt.png',
+        description:
+          'INSTANTLY throw an energy bolt that bounces once. Upon hitting each surface, the bolt electrifies the ground below with a concussive blast.',
       },
       {
         type: 'E',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'high gear',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt99e20f893b806cc8/61d8a9608aabbf6426b7523a/VAL_Neon_Ability-E_Preview_Sprint_noHUD_Web_h264.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc7f73a2cfc4e3e44/61d8a8181757dc6aed2ada7c/Neon_E-High_Gear.png',
+        description:
+          'INSTANTLY channel Neon’s power for increased speed. When charged, ALT FIRE to trigger an electric slide. Slide charge resets every two kills.',
       },
       {
         type: 'C',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'fast lane',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt023814e24e6cad2f/61d8a98914ef402247ceab3a/VAL_Neon_Ability-C_Preview_Walls_noHUD_Web_h264.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt50ac2316cddbb64d/61d8a8209efff26ae759809a/Neon_C-Fast_Lane.png',
+        description:
+          'FIRE two energy lines forward on the ground that extend a short distance or until they hit a surface. The lines rise into walls of static electricity that block vision and damage enemies passing through them.',
       },
       {
         type: 'X',
-        name: '',
-        video: '',
-        icon: '',
-        description: '',
+        name: 'overdrive',
+        video:
+          'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcbe0e9c4b801f025/61d8a9dfef206c6c5e4941ba/VAL_Neon_Ability-X_Preview_Ult_noHUD_Web_h264.mp4',
+        icon: 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcf74e9670f324266/61d8a829997c0e224de09fae/Neon_X-Overdrive.png',
+        description:
+          'Unleash Neon’s full power and speed for a short duration. FIRE to channel the power into a deadly lightning beam with high movement accuracy. The duration resets on each kill.',
       },
     ],
   },

@@ -21,7 +21,7 @@ function Index({ activeAgent }) {
     if (videoRef) {
       videoRef.current.load();
     }
-  }, [activeAbility]);
+  }, [activeAbility, activeAgent]);
 
   return (
     <Container>
@@ -57,7 +57,7 @@ function Index({ activeAgent }) {
           </main>
         </Abilities>
         <Abilities_Video>
-          <video ref={videoRef} preload={true} autoPlay loop muted>
+          <video ref={videoRef} preload="true" autoPlay loop muted>
             <source src={activeAbility.video} type="video/mp4" />
           </video>
         </Abilities_Video>
