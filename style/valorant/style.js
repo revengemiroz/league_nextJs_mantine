@@ -14,11 +14,11 @@ export const Container = styled.div`
   flex-direction: column;
   /* justify-content: center; */
   /* align-items: center; */
-  border: 2px solid green;
+  /* border: 2px solid green; */
 `;
 
 export const Layout = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   min-height: 100vh;
   flex-direction: column;

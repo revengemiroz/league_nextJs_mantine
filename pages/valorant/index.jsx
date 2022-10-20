@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Mousewheel, Keyboard } from 'swiper';
 
-import { InView } from 'react-intersection-observer';
+import ValorantSpecialAbilities from '../../components/Valorant/SpecialAbilities';
+
+import { Valorant } from '../../Data/valorant';
 
 import {
   Container,
@@ -18,16 +22,13 @@ import {
   Layout,
 } from '../../style/valorant/style';
 
-import { Valorant } from '../../Data/valorant';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Mousewheel, Keyboard } from 'swiper';
-
-import ValorantSpecialAbilities from '../../components/Valorant/SpecialAbilities';
-import Valorant_Logo from '../../assets/valorant/valorant_logo.svg';
-
-function Index({ visibleAgents, setVisibleAgents, nonVisibleAgents, setNonVisibleAgents }) {
+function Index() {
   const [activeAgent, setActiveAgent] = useState(Valorant[0]);
+  const [activeAbility, setActiveAbility] = useState(activeAgent.abilities[0]);
+
+  useEffect(() => {
+    setActiveAbility(activeAgent.abilities[0]);
+  }, [activeAgent]);
 
   return (
     <Container>
@@ -105,7 +106,11 @@ function Index({ visibleAgents, setVisibleAgents, nonVisibleAgents, setNonVisibl
             </main>
           </Character_Info>
         </Main>
-        <ValorantSpecialAbilities activeAgent={activeAgent} />
+        <ValorantSpecialAbilities
+          activeAgent={activeAgent}
+          activeAbility={activeAbility}
+          setActiveAbility={setActiveAbility}
+        />
       </Layout>
     </Container>
   );

@@ -1,7 +1,7 @@
-import React, { useState, useRef } from 'react';
-import { useEffect } from 'react';
+import React from 'react';
+import dynamic from 'next/dynamic';
 
-import { Valorant } from '../../../Data/valorant';
+const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
 import {
   Container,
@@ -13,16 +13,7 @@ import {
   Ability_Icon,
 } from './style';
 
-function Index({ activeAgent }) {
-  const [activeAbility, setActiveAbility] = useState(activeAgent.abilities[0]);
-  const videoRef = useRef();
-
-  useEffect(() => {
-    if (videoRef) {
-      videoRef.current.load();
-    }
-  }, [activeAbility, activeAgent]);
-
+function Index({ activeAgent, activeAbility, setActiveAbility }) {
   return (
     <Container>
       <main className="abilities">
@@ -36,13 +27,11 @@ function Index({ activeAgent }) {
                     active={activeAbility.type == ability.type ? 1 : 0}
                     onClick={() => setActiveAbility(ability)}
                   >
-                    {/* <Ability_Image> */}
                     <Ability_Icon
                       active={activeAbility.type == ability.type ? 1 : 0}
                       className="icon"
                       src={ability.icon}
                     />
-                    {/* </Ability_Image> */}
                   </Ability>
                 );
               })}
@@ -57,9 +46,7 @@ function Index({ activeAgent }) {
           </main>
         </Abilities>
         <Abilities_Video>
-          <video ref={videoRef} preload="true" autoPlay loop muted>
-            <source src={activeAbility.video} type="video/mp4" />
-          </video>
+          <ReactPlayer playing={true} url={activeAbility.video} />
         </Abilities_Video>
       </main>
     </Container>
